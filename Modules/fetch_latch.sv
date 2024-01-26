@@ -3,7 +3,7 @@ module fetch_latch #(
 )(
     input                       clk,
     input                       rst,
-    input       [WIDTH-1:0]     instr_in,
+    input       [WIDTH-1:0]     instr_in, // add PC
     output reg  [WIDTH-1:0]     fetch_out
 );
 
